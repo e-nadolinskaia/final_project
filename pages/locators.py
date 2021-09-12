@@ -13,3 +13,5 @@ class ProductPageLocators():
 	BOOK_NAME  = (By.CSS_SELECTOR, '.product_main h1')
 	BASKET_COST = (By.CSS_SELECTOR,'div[id="messages"] :nth-child(3) p > strong')
 	PRODUCT_PRICE = (By.CSS_SELECTOR,'.product_main :nth-child(2)')
+	SUCCESS_MESSAGE = (By.CSS_SELECTOR,'div[id="messages"] :nth-child(2) > strong')
+		
